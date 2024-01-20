@@ -67,13 +67,14 @@ const CodeEditor = () => {
 
   return (
     <div className="code-editor">
-      <div>
+      <div className="container">
         <label>Language:</label>
         <select value={language} onChange={(e) => handleLanguageChange(e.target.value)}>
           <option value="c_cpp">C/C++</option>
           <option value="python">Python</option>
           <option value="java">Java</option>
         </select>
+        <button className="run-button" onclick="handleRunButtonClick()">Run</button>
       </div>
       <AceEditor
         mode={language}
