@@ -26,5 +26,10 @@ The Collaborative Coding Platform is a web-based application designed to facilit
   - Authentication: JSON Web Tokens (JWT)
   - Version Control Integration: Git
 
-- **Real-time Communication:**
+ **Real-time Communication:**
   - Library: Socket.io
+
+## Packages-To-Install
+  - npm install socket.io-client
+  - npm install react-ace
+  - Run these commands in terminal to install the required packages
