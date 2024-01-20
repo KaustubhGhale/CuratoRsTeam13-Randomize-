@@ -42,6 +42,14 @@ const Home = () => {
                     src="/code-sync.png"
                     alt="code-sync-logo"
                 />
+                <div class="hero" align="center">
+                    <div class="form-box">
+                        <div class="button-box">
+                            <button type="button" class="toggle-btn">Teacher</button>
+                            <button type="button" class="toggle-btn">Student</button>
+                        </div>
+                    </div>
+                </div>
                 <h4 className="mainLabel">Enter Room ID & Username</h4>
                 <div className="inputGroup">
                     <input
